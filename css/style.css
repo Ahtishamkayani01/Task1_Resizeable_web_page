@@ -1,0 +1,179 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+.container{
+    background-color: #6188A1;
+    height: auto;
+   width: 100%;
+ 
+}
+.container1{
+background-color: #6188A1;
+width: 100%;
+ height: auto;
+ display: flex;
+ justify-content: center;
+ column-gap: 30px;
+ margin-left: 2%;
+}
+.main{
+  
+    background: linear-gradient(90deg, #6F8986 0%, #BAE3E1 100%);
+}
+li ,a{
+    font-size: 16px;
+    color: #edf0f1;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 10px 2%;
+    background: linear-gradient(111.51deg, #75A2BC -14.55%, #112234 116.63%);
+  
+
+}
+.points  {
+    cursor: pointer;
+    height: 40px;
+}
+
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display:inline-block;
+    padding: 0px 20px;
+}
+.nav_link1 li{
+    display:inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #0088a9;
+}
+.nav_link1 li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_link1 li a:hover{
+    color: #0088a9;
+}
+.card{
+background: linear-gradient(90deg, #6F8986 0%, #BAE3E1 100%);
+padding: 10px;
+padding-left: 30px;
+padding-top: 70px;
+width: 73%;
+height: 40%;
+margin-top: 4%;
+margin-left: 15%;
+
+}
+.card h1{
+
+    font-size: 40px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #edf0f1;
+
+}
+.card_time{
+    background: linear-gradient(90deg, #BBD2C5 0%, #536976 100%);
+
+    width: 20%;
+    height:auto;
+   
+    margin-left: 75%;
+    position: relative;
+   bottom: 90px;
+   
+}
+.card_time h1{
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: center;
+ 
+}
+.card_time h4{
+    font-size: 6px;
+    padding-top: 10px;
+    text-align: center;
+  
+}
+.button{
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  color: purple;
+  outline: #BAE3E1;
+}
+.card1{
+    
+    background: linear-gradient(111.51deg, hwb(202 43% 44%) -14.55%, #112234 116.63%);
+    padding: 10px;
+    padding-left: 30px;
+    padding-top: 70px;
+    width: 35.5%;
+    height: 36%;
+    margin-top: 4%;
+ 
+
+    }
+    .card1 h1{
+    
+        font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #edf0f1;
+    
+    }
+    .card_time1{
+        background-color:hwb(202 43% 44%) ;
+    background-blend-mode: screen;
+ 
+        width: 50%;
+        height:auto;
+       margin-top: 8%;
+    }
+    .card_time1 h1{
+        font-size: 15px;
+        padding-top: 10px;
+        text-align: center;
+     
+    }
+    .card_time1 h4{
+        font-size: 6px;
+        padding-top: 5px;
+        text-align: center;
+      
+    }
+    
+    
+
+
+html, body {
+    height: 100%;
+    background-color: #6188A1;
+
+}
+.points1{
+
+  cursor: pointer;
+  height: 40px;
+  margin-top: 10px;
+}
+.points2{
+
+    cursor: pointer;
+    height: 30px;
+  float: right;
+   
+  }
+ .main{
+     width:100%;
+ }
